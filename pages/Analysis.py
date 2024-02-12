@@ -61,11 +61,32 @@ chart_5 = pd.concat(refactory_chart_5)
 fig_2 = px.bar(chart_2, x='order_date', y='total_cost', 
                color_discrete_sequence=px.colors.qualitative.Light24)
 fig_2.update_traces(marker_color=px.colors.qualitative.Light24[1])
+fig_2.update_layout(legend=dict(
+                                orientation="h",
+                                yanchor="bottom",
+                                y=1.02,
+                                xanchor="right",
+                                x=1,
+                            ))
 fig_4 = px.bar(chart_4a, x='shipment_date', y='money', color='money_status',
                color_discrete_sequence=px.colors.qualitative.Light24)
+fig_4.update_layout(legend=dict(
+                                orientation="h",
+                                yanchor="bottom",
+                                y=1.02,
+                                xanchor="right",
+                                x=1,
+                            ))
+
 fig_5 = px.bar(chart_5, x='quantity', y='flower_name', color='flower_status',
                color_discrete_sequence=px.colors.qualitative.Light24)
-
+fig_5.update_layout(legend=dict(
+                                orientation="h",
+                                yanchor="bottom",
+                                y=1.02,
+                                xanchor="right",
+                                x=1,
+                            ))
 # ========= Display in streamlit =======
 
 st.divider()
@@ -129,10 +150,23 @@ chart_3 = chart_3[chart_3.flower_name.isin(flower)]
 
 fig_1 = px.bar(chart_1, x='order_date', y='quantity', color='flower_name', 
                color_discrete_sequence=px.colors.qualitative.Light24)
+fig_1.update_layout(legend=dict(
+                                orientation="h",
+                                yanchor="bottom",
+                                y=1.02,
+                                xanchor="right",
+                                x=1,
+                            ))
 
 fig_3 = px.bar(chart_3, x='shipment_date', y='quantity', color='flower_name', 
                color_discrete_sequence=px.colors.qualitative.Light24)
-
+fig_3.update_layout(legend=dict(
+                                orientation="h",
+                                yanchor="bottom",
+                                y=1.02,
+                                xanchor="right",
+                                x=1,
+                            ))
 
 # ========= Display in streamlit ==========
 
