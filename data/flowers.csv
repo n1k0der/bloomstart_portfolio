@@ -1,14 +1,14 @@
-flower_id,flower_name,damage_function
-0,alstromelia,3.0
-1,bouquet_rose_white,1.0
-2,bouquet_rose_red,1.0
-3,bouquet_rose_yellow,1.0
-4,bouquet_rose_orange,1.0
-5,pom,1.5
-6,tulip,2.0
-7,hydrangea,1.0
-8,carnation,2.0
-9,minicarnation,3.0
-10,spiders,2.0
-11,spray rose,2.0
-12,gypsophilia,4.0
+flower_id,flower_name,damage_function,cost_cad
+0,alstromelia,3.0,5
+1,bouquet_rose_white,1.0,10
+2,bouquet_rose_red,1.0,10
+3,bouquet_rose_yellow,1.0,10
+4,bouquet_rose_orange,1.0,10
+5,pom,1.5,7
+6,tulip,2.0,5
+7,hydrangea,1.0,10
+8,carnation,2.0,8
+9,minicarnation,3.0,6
+10,spiders,2.0,9
+11,spray rose,2.0,5
+12,gypsophilia,4.0,3
