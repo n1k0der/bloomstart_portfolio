@@ -6,7 +6,7 @@ st.image('images/black-logo.png')
 
 st.markdown("### What is this webpage?​​")
 st.markdown("""
-Welcome to Bloomstar, where data meets beauty! As a dedicated data professional, I am thrilled to present to you a personalized portfolio application crafted with speed and precision. While the data showcased here is purely illustrative, the potential for deeper analysis is boundless. Despite time constraints, this application showcases my passion for transforming data into actionable insights. Although there's room for improvement in terms of code modularization, commenting, and refactoring, these enhancements are reserved for future iterations when time permits. I am eager to discuss how this application can contribute to Bloomstar's success, leveraging the power of data to blossom into new opportunities. Let's embark on this journey together.
+Welcome to Bloomstar, where data meets beauty! As a dedicated data professional, I am thrilled to present to you a personalized portfolio application crafted with speed and precision. While the data showcased here is purely illustrative, the potential for deeper analysis is boundless. Despite time constraints **(this app was created in few hours)**, this application showcases my passion for transforming data into actionable insights. Although there's room for improvement in terms of code modularization, commenting, and refactoring, these enhancements are reserved for future iterations when time permits. I am eager to discuss how this application can contribute to Bloomstar's success, leveraging the power of data to blossom into new opportunities. Let's embark on this journey together.
 """)
 
 st.image('images/Gerbera.jpg')
@@ -30,8 +30,10 @@ st.markdown(
 
 - **Web Development:** Competent in developing web applications and implementing interactive data visualizations using modern web technologies, enhancing user engagement and facilitating data-driven decision-making.
 
+- [LinkedIn](https://linkedin.com/in/nicolas-peralta-paez)
+
+- [GitHub Repository of this project](https://github.com/n1k0der/bloomstart_portfolio)
+
 
 """
 )
-
-linkedin.com/in/nicolas-peralta-paez
