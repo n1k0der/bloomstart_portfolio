@@ -74,9 +74,9 @@ st.markdown("#### First, how much product is damaged? ")
 
 # st.plotly_chart(fig_2)
 st.markdown("- Damage to the product measured by the daily shipments received in terms of money (CAD).")
-st.plotly_chart(fig_4)
+st.plotly_chart(fig_4, use_container_width=True)
 st.markdown("- Damage to the product measured by the types of flowers in terms of money (CAD).")
-st.plotly_chart(fig_5)
+st.plotly_chart(fig_5, use_container_width=True)
 
 st.markdown("#### Total balance CAD")
 col1, col2 = st.columns(2)
@@ -137,6 +137,6 @@ fig_3 = px.bar(chart_3, x='shipment_date', y='quantity', color='flower_name',
 # ========= Display in streamlit ==========
 
 st.markdown("- Orders of flower bouquets and glowers measured by the quantity of bouquets to be delivered.")
-st.plotly_chart(fig_1)
+st.plotly_chart(fig_1, use_container_width=True)
 st.markdown("- Shipments received of flower bouquets and glowers measured by the quantity of bouquets received.")
-st.plotly_chart(fig_3)
+st.plotly_chart(fig_3, use_container_width=True)
